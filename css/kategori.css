@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+ body{
+    height: 90vh;
+    width: 100%;
+    background-image: url(/assets/kategori.png);
+    background-size: cover;
+    background-position: center;
+ }
+
+ span{
+    color: #FBBA67;
+ }
+
+ h1{
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.gambar img{
+    justify-content: space-between;
+    margin-left: 131px;
+    margin-top: 50px;
+    padding: 60px 140px;
+    width: 500px;
+    backdrop-filter: blur(5px) saturate(80%);
+    background-color: rgba(53, 54, 56, 0.25);
+    border-radius: 20px;
+    border: 1px solid rgb(106, 105, 105);  
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+}
+
+.gambar-umum img{
+    position: absolute;
+    margin-left: 905px;
+    margin-top: -366px;
+    padding: 50px 100px;
+    width: 485px;
+    backdrop-filter: blur(5px) saturate(80%);
+    background-color: rgba(53, 54, 56, 0.25);
+    border-radius: 20px;
+    border: 1px solid rgb(106, 105, 105);  
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+}
+
+
+.btn{
+    position: absolute;
+    color: #FBBA67;
+    font-weight: bold;
+    margin-left: 225px;
+    margin-top: 50px;
+    padding: 20px 90px;
+    backdrop-filter: blur(5px) saturate(120%);
+    background-color: rgba(53, 54, 56, 0.25);
+    border-radius: 20px;
+    border: 1px solid rgb(106, 105, 105);  
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.btn2{
+    position: absolute;
+    color: #FBBA67;
+    font-weight: bold;
+    margin-left: 980px;
+    margin-top: 50px;
+    padding: 20px 130px;
+    backdrop-filter: blur(5px) saturate(120%);
+    background-color: rgba(53, 54, 56, 0.25);
+    border-radius: 20px;
+    border: 1px solid rgb(106, 105, 105);  
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+    transition: transform .4s;
+}
+
+.btn2:hover{
+    transform: scale(1.2);
+}

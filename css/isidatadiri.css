@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+ body{
+    height: 90vh;
+    width: 100%;
+    background-image: url(/assets/kategori.png);
+    background-size: cover;
+    background-position: center;
+ }
+
+ span{
+    color: #FBBA67;
+ }
+
+h1{
+    text-align: center;
+    margin: 60px auto;
+    font-weight: bold;
+}
+
+h3{
+    padding: 10px;
+}
+
+form {
+    max-width: 3000px;
+    margin: 10px auto;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    textarea,
+    select {
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    backdrop-filter: blur(5px) saturate(120%);
+    background-color: rgba(53, 54, 56, 0.25);
+    border-radius: 15px;
+    border: 1px solid rgb(106, 105, 105);  
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+    }
+    
+    input[type=radio] {
+        border: 0px;
+        width: 5%;
+        height: 15px;
+    }
+
+#input1{
+    margin-left:15px;
+}
+#input2{
+    margin-left:10px;
+}
+    
+.btn{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    margin-left: 525px;
+    margin-top: 20px;
+    padding: 18px 28px 18px;
+    backdrop-filter: blur(5px) saturate(120%);
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px solid rgb(106, 105, 105);  
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+    
+    fieldset {
+    margin-bottom: 10px;
+    border: none;
+    }
+    
+
+    
+    @media screen and (min-width: 480px) {
+    
+    form {
+    max-width: 480px;
+    }
+
+}

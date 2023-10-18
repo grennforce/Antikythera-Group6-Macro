@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    text-align: center;
+    height: 100vh;
+    background-image: url(/assets/bg_dashboard.png);
+}
+
+ /* header */
+nav{
+    display: flex;
+    float: center;
+    padding-top: 10px;
+    padding-left: 3%;
+    background-color: #015898;
+}
+span{
+    color: #FBBA67;
+    font-family: 'pantua one';
+    font-size: 30px;
+}
+
+span-footer{
+    color: #FBBA67;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-family: 'pantua one';
+}
+
+h2{
+    margin-left: 100px;
+    padding: 10px 30px 10px;
+    width: 13%;
+    margin-top: 40px;
+    background-color: #94ECFF;
+    border-radius: 15px;
+}
+
+h3{
+    padding: 30px;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    padding:  10px;
+    border-radius: 10px;
+    font-weight: bold;
+    float: left;
+    display: flex;
+}
+
+nav ul li a:hover,
+navigation a.active{
+    color: #000;
+    background: white;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 820px;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+/* materi */
+.card img{
+    height: 100px;
+    width: 100px;
+}
+
+.card-row{
+    width: 70%;
+    margin: 10px 250px;
+}
+
+.card-column{
+    width: 24%;
+    float: left;
+    padding: 0 20px;
+}
+
+.card {
+    margin-top: 18px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(179, 212, 255));
+    padding: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.8s;
+}
+
+.card:hover{
+    background-color: #ffffff;
+    box-shadow: 0 16px 32px 0 rgba(201, 226, 252, 0.8);
+}
+
+@media screen and (max-width: 600px){
+    .card-column{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/* footer */
+.fixed-footer {
+    width: 100%;
+    position:absolute;
+    background: black;
+    font-size: 15px;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+  }
+  .fixed-footer {
+    bottom: 0;
+  }

@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    text-align: center;
+    height: 100vh;
+    background-image: url(/assets/bg_dashboard.png);
+
+}
+
+/* header */
+nav{
+    display: flex;
+    float: center;
+    padding-top: 10px;
+    padding-left: 3%;
+    background-color: #015898;
+}
+span{
+    color: #FBBA67;
+    font-family: 'pantua one';
+    font-size: 30px;
+}
+
+span-footer{
+    color: #FBBA67;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-family: 'pantua one';
+}
+
+h2{
+    margin-top: -30px;
+    color: white;
+}
+
+h3{
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+h4{
+    font-size: 18px;
+    margin-top: -22px;
+    margin-left: 165px;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    padding:  10px;
+    border-radius: 10px;
+    font-weight: bold;
+    float: left;
+    display: flex;
+}
+
+nav ul li a:hover,
+navigation a.active{
+    color: #000;
+    background: white;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 820px;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+.card-row{
+    margin: 10px 250px;
+}
+
+.card-column{
+    margin-left: 130px;
+}
+
+.card {
+    width: 84%;
+    margin-top: 108px;
+    backdrop-filter: blur(5px) saturate(100%);
+    background-color: rgba(139, 148, 189, 0.25);
+    border-radius: 15px;
+    border: 1px solid rgb(106, 105, 105);  
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));order:1px solid #ccc;
+    padding: 100px;
+    transition: 0.8s;
+}
+
+.card-dalam {
+    width: 20%;
+    margin-top: 80px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.card-dalam2 {
+    position: absolute;
+    width: 15%;
+    margin-top: -130px;
+    margin-left: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+
+@media screen and (max-width: 600px){
+    .card-column{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+.fixed-footer {
+    width: 100%;
+    position:absolute;
+    background: black;
+    font-size: 15px;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+  }
+  .fixed-footer {
+    bottom: 0;
+  }

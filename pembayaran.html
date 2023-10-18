@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANTIKYTHERA</title>
+    <link rel="stylesheet" href="/css/pembayaran.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Alamat Tagihan</h3>
+
+                <div class="inputBox">
+                    <span>Nama Lengkap :</span>
+                    <input type="text" placeholder="Nama Lengkap">
+                </div>
+                <div class="inputBox">
+                    <span>Email :</span>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <span>Alamat :</span>
+                    <input type="text" placeholder="Alamat">
+                </div>
+                <div class="inputBox">
+                    <span>Tempat & Tanggal lahir :</span>
+                    <input type="text" placeholder="Tempat Tinggal">
+                </div>
+                <div class="inputBox-bayar">
+                    <label><span>Pilih Paket Yang di tawarkan :</span></label>
+                            <select name="metode">
+                                <option value="">--</option>
+                                <option value="Regular">Regular: Rp.150.000.00/bulan</option>
+                                <option value="Khusus">Khusus: Rp.300.000.00/bulan</option>
+                                <option value="Layanan Penuh">Layanan Penuh: Rp.5000.000.00/bulan</option>
+                                </select>
+                </div>
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">Pembayaran</h3>
+                
+                <div class="inputBox">
+                    <span>Metode Pembayaran :</span>
+                    <img src="/assets/card.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <label><span>Metode Pembayaran :</span></label>
+                            <select name="metode">
+                                <option value="">--</option>
+                                <option value="Kartu_Kredit">Kartu Kredit</option>
+                                <option value="Dompet Digital"> Dompet Digital</option>
+                                <option value="Alfa mart">Alfa Mart</option>
+                                <option value="Indomaret">Indomaret</option>
+                                </select>
+                </div>
+                <div class="inputBox">
+                    <span>Pengirim Atas Nama :</span>
+                    <input type="text" placeholder="Nama Pengirim">
+                </div>
+                <div class="inputBox">
+                    <span>No Kartu Kredit/No Dompet Digital :</span>
+                    <input type="number" placeholder="- -">
+                </div>
+                
+            </div>
+        </div>
+    </form>
+    <a href="dashboard_beranda.html" class="btn">Proses Pembayaran</a>
+
+</div>    
+    
+</body>
+</html>
